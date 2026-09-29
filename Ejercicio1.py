@@ -11,8 +11,6 @@ for x in conjunto_fracciones:
     print(x, end=", ")
 print("...")
 
-
-# 2. Usando un Generador (para representar la secuencia infinita que tiende a 0)
 def generar_potencias_sheldon(limite_terminos=15):
     n = 0
     while n < limite_terminos:
